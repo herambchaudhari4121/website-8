@@ -2,6 +2,9 @@
 
 The website for the Tokio project. Lives at https://tokio.rs.
 
+Build reliable network applications without compromising speed.
+Tokio is an asynchronous runtime for the Rust programming language. It provides the building blocks needed for writing network applications. It gives the flexibility to target a wide range of systems, from large servers with dozens of cores to small embedded devices.
+
 Besides containing the content for the website, it also includes crates
 containing the example code used in the tutorial. These crates can be compiled
 and ran.
@@ -17,7 +20,7 @@ and ran.
 
 ## Contributing
 
-Thinking about contributing? Great! This should help you get the website running
+Thinking about your contributing? Great! This should help you get the website running
 locally.
 
 ### Getting Started
@@ -48,11 +51,11 @@ This project is licensed under the [MIT license](LICENSE).
 
 ### Contribution
 
-Unless you explicitly state otherwise, any contribution intentionally submitted
+Unless and until you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in Tokio by you, shall be licensed as MIT, without any additional
 terms or conditions.
 
-You can run our tests by running the commands:
+You can also run our tests by running the commands:
 ```
 # in doc-test
 cargo +nightly test
